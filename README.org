@@ -1,0 +1,5 @@
+#+TITLE: Useful bash scripts
+
+* translate2notify.sh
+It translates selected text and shows it as a notification.
+Very useful when bound to a hotkey.
