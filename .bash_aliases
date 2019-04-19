@@ -27,9 +27,10 @@ alias egrep='egrep --color=auto'
 
 
 # local
-# PS1="\e[1;37m╭\u@\e[1;32m\h:\e[m\e[1;33m\w\n\e[m\e[1;37m╰$ \e[m"
+# PS1='\[\e[37;1m\]╭\u@\[\e[32;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
+
 # remote
-PS1="\e[1;37m╭\u@\e[1;35m\h:\e[m\e[0;33m\w\n\e[m\e[1;37m╰$ \e[m"
+PS1='\[\e[37;1m\]╭\u@\[\e[35;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
 export PS1
 
