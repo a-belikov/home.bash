@@ -7,3 +7,16 @@ Very useful when bound to a hotkey.
 - Get selected text with ~xclip~
 - Translate it with ~trans~ https://github.com/soimort/translate-shell
 - Send result as notification by ~notify-send~
+
+* .bash_aliases
+- Aliases for emacs
+- Aliases for grep
+- Two string PS1 sets
+
+#+begin_src sh
+╭user@host:~/dir
+╰$ 
+#+end_src
+
+
+
