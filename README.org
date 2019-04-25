@@ -11,7 +11,7 @@ Very useful when bound to a hotkey.
 * .bash_aliases
 - Aliases for emacs
 - Aliases for grep
-- Two string PS1 sets
+- Two strings PS1 sets
 
 #+begin_src sh
 ╭user@host:~/dir
