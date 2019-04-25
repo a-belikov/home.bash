@@ -13,10 +13,10 @@ alias cowsay="cowsay -n -f turtle"
 alias ds="du -h --max-depth 1"
 alias psef="ps -ef | grep "
 
-
 alias ls='ls $LS_OPTIONS --group-directories-first'
 alias l='ls -a1'
 alias ll='ls -lA'
+alias lr='ls -R'
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
@@ -29,7 +29,6 @@ alias egrep='egrep --color=auto'
 PS1='\[\e[37;1m\]╭\u@\[\e[35;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
 export PS1
- 
 eval $(dircolors -b $HOME/.dircolors)
 
 
