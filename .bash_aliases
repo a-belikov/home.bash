@@ -31,4 +31,5 @@ PS1='\[\e[37;1m\]╭\u@\[\e[35;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\
 export PS1
 eval $(dircolors -b $HOME/.dircolors)
 
+echo -e "\033]0;[${USER}@${HOSTNAME}]\007"
 
