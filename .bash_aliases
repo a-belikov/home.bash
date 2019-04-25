@@ -24,8 +24,6 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
 
-
-
 # local
 # PS1='\[\e[37;1m\]╭\u@\[\e[32;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
