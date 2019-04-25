@@ -1,8 +1,8 @@
 
-alias ec="emacsclient -c"
+alias ec="emacsclient -c -a ''"
 alias e="emacs"
-alias ed="emacsclient -t"
-alias et="emacsclient -t"
+alias ed="emacsclient -t -a ''"
+alias et="emacsclient -t -a ''"
 
 # ls dir coloring
 export LS_OPTIONS='--color=auto'
@@ -18,8 +18,6 @@ alias ls='ls $LS_OPTIONS --group-directories-first'
 alias l='ls -a1'
 alias ll='ls -lA'
 
-
-
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='egrep --color=auto'
@@ -31,7 +29,7 @@ alias egrep='egrep --color=auto'
 PS1='\[\e[37;1m\]╭\u@\[\e[35;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
 export PS1
-
+ 
 eval $(dircolors -b $HOME/.dircolors)
 
 
