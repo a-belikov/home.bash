@@ -26,7 +26,7 @@ alias egrep='egrep --color=auto'
 # PS1='\[\e[37;1m\]╭\u@\[\e[32;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
 # remote
-PS1='\[\e[37;1m\]╭\u@\[\e[35;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
+PS1='\[\e[37;1m\]╭\u@\[\e[31;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
 export PS1
 eval $(dircolors -b $HOME/.dircolors)
