@@ -1,3 +1,5 @@
+#alias "c"="bc<<<"
+
 
 alias ec="emacsclient -c -a ''"
 alias e="emacs"

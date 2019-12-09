@@ -13,4 +13,4 @@ TRANSLATEDTEXT=$(trans -b :ru "$SELECTEDTEXT")
 
 # 3 send result as notification. icons from /usr/share/icons/gnome/32x32
 # notify-send --urgency=normal --icon=face-glasses --expire-time
-notify-send --urgency=normal --icon=face-glasses --expire-time 8000 "$TRANSLATEDTEXT"
+notify-send --urgency=normal --icon=face-glasses --expire-time 8000 "Google.Translate" "$TRANSLATEDTEXT"
