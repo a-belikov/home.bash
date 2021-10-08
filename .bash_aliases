@@ -1,10 +1,10 @@
 #alias "c"="bc<<<"
 
-
-alias ec="emacsclient -c -a ''"
+alias ec="emacsclient -n "
+alias ecc="emacsclient -c -a"
 alias e="emacs"
-alias ed="emacsclient -t -a ''"
-alias et="emacsclient -t -a ''"
+alias ed="emacsclient -t -a"
+alias et="emacsclient -t -a"
 
 # ls dir coloring
 export LS_OPTIONS='--color=auto'
