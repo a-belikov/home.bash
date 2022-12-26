@@ -36,3 +36,9 @@ eval $(dircolors -b $HOME/.dircolors)
 
 echo -e "\033]0;[${USER}@${HOSTNAME}]\007"
 
+
+# killall xcape
+xcape -e 'Control_L=Alt_L|space;Alt_R=Control_L|space'
+xcape -e 'Shift_L=Shift_L|bracketleft'
+xcape -e 'Shift_R=parenleft'
+
