@@ -12,7 +12,7 @@ eval "`dircolors`"
 
 alias cowsay="cowsay -n -f turtle"
 
-alias ds="du -h --max-depth 1"
+alias ds="du -h --max-depth 1 | sort -hr"
 alias psef="ps -ef | grep "
 
 alias ls='ls $LS_OPTIONS --group-directories-first'
@@ -26,10 +26,10 @@ alias egrep='egrep --color=auto'
 alias grepa='grep --color=auto -B 10 -A 20'
 
 # local
-# PS1='\[\e[37;1m\]╭\u@\[\e[32;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
+PS1='\[\e[37;1m\]╭\u@\[\e[32;1m\]\h\[\e[33;1m\]\D{[%H:%M] }\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
 # remote
-PS1='\[\e[37;1m\]╭\u@\[\e[31;1m\]\h:\[\e[33;1m\]\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
+# PS1='\[\e[37;1m\]╭\u@\[\e[31;1m\]\h\[\e[33;1m\]\D{[%H:%M] }\w\[\e[m\]\n\[\e[37;1m\]╰\$\[\e[m\] '
 
 export PS1
 eval $(dircolors -b $HOME/.dircolors)
@@ -37,8 +37,5 @@ eval $(dircolors -b $HOME/.dircolors)
 echo -e "\033]0;[${USER}@${HOSTNAME}]\007"
 
 
-# killall xcape
-xcape -e 'Control_L=Alt_L|space;Alt_R=Control_L|space'
-xcape -e 'Shift_L=Shift_L|bracketleft'
-xcape -e 'Shift_R=parenleft'
+
 
